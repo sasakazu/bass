@@ -1,3 +1,11 @@
-/* line 5, style.scss */
-.main h2 {
-  color: red; }
+/* line 4, style.scss */
+.navbar-default {
+  background-color: #E62565 !important;
+  border-color: transparent !important;
+  border-radius: 0 !important; }
+
+/* line 10, style.scss */
+.navbar-brand {
+  color: #fff !important;
+  font-size: 30px !important;
+  letter-spacing: 1px; }

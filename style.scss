@@ -1,10 +1,14 @@
 
+// header.php
 
+.navbar-default {
+    background-color: #E62565!important;
+    border-color: transparent!important;
+    border-radius: 0!important;
+}
 
-.main {
-  h2 {
-    color: red;
-
-    
-  }
+.navbar-brand {
+    color: #fff!important;
+    font-size: 30px!important;
+    letter-spacing: 1px;
 }
