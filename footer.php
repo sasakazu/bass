@@ -4,7 +4,7 @@
 
 <footer>
 
-  copy right
+  &copy copy right
 </footer>
 
 

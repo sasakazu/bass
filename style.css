@@ -1,11 +1,52 @@
-/* line 4, style.scss */
+/* line 3, style.scss */
+* {
+  font-family: serif; }
+
+/* line 18, style.scss */
 .navbar-default {
   background-color: #E62565 !important;
   border-color: transparent !important;
   border-radius: 0 !important; }
 
-/* line 10, style.scss */
+/* line 24, style.scss */
 .navbar-brand {
   color: #fff !important;
   font-size: 30px !important;
+  letter-spacing: 1px; }
+
+/* line 33, style.scss */
+.navbar {
+  margin-bottom: 0px !important; }
+
+/* line 43, style.scss */
+.navbar-default .navbar-nav li a {
+  color: #fff !important;
+  letter-spacing: 1px;
+  font-size: 15px; }
+
+/* line 55, style.scss */
+.top-img {
+  position: relative; }
+  /* line 57, style.scss */
+  .top-img img {
+    width: 100%; }
+  /* line 61, style.scss */
+  .top-img h2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    font-size: 80px; }
+    /* line 68, style.scss */
+    .top-img h2 small {
+      font-size: 14px !important;
+      margin-left: 47px; }
+
+/* line 88, style.scss */
+footer {
+  background: #E62565;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
   letter-spacing: 1px; }

@@ -1,3 +1,17 @@
+// common
+
+* {
+  font-family: serif;
+}
+
+
+
+
+
+
+
+
+
 
 // header.php
 
@@ -11,4 +25,71 @@
     color: #fff!important;
     font-size: 30px!important;
     letter-spacing: 1px;
+
+}
+
+
+
+.navbar {
+    margin-bottom: 0px!important;
+}
+
+
+
+.navbar-default .navbar-nav{
+
+li {
+
+a {
+    color: #fff!important;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+}
+
+}
+
+// .top-img
+
+.top-img {
+  position: relative;;
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    font-size: 80px;
+
+  small {
+
+    font-size: 14px!important;
+    margin-left: 47px;
+}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+// footer.php
+
+footer {
+  background: #E62565;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
