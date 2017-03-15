@@ -2,27 +2,33 @@
 * {
   font-family: serif; }
 
-/* line 18, style.scss */
+/* line 11, style.scss */
 .navbar-default {
   background-color: #E62565 !important;
   border-color: transparent !important;
   border-radius: 0 !important; }
 
-/* line 24, style.scss */
+/* line 17, style.scss */
 .navbar-brand {
   color: #fff !important;
   font-size: 30px !important;
   letter-spacing: 1px; }
 
-/* line 33, style.scss */
+/* line 26, style.scss */
 .navbar {
   margin-bottom: 0px !important; }
 
-/* line 43, style.scss */
+/* line 36, style.scss */
 .navbar-default .navbar-nav li a {
   color: #fff !important;
   letter-spacing: 1px;
   font-size: 15px; }
+
+/* line 47, style.scss */
+.menu-menu-container li {
+  float: left;
+  margin-left: 25px;
+  line-height: 4; }
 
 /* line 55, style.scss */
 .top-img {
@@ -52,7 +58,7 @@
   /* line 87, style.scss */
   .contact-main h2 {
     color: #666;
-    margin-top: 50px;
+    padding-top: 100px;
     margin-bottom: 10px;
     font-size: 38px; }
   /* line 94, style.scss */

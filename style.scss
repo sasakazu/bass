@@ -6,13 +6,6 @@
 
 
 
-
-
-
-
-
-
-
 // header.php
 
 .navbar-default {
@@ -50,6 +43,13 @@ a {
 
 }
 
+.menu-menu-container {
+  li {
+    float: left;
+    margin-left: 25px;
+    line-height: 4;
+  }
+}
 // .top-img
 
 .top-img {
@@ -86,7 +86,7 @@ a {
 
   h2 {
     color: #666;
-    margin-top: 50px;
+    padding-top: 100px;
     margin-bottom: 10px;
     font-size: 38px;
   }

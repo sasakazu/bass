@@ -15,7 +15,7 @@
 </div>
 
 
-  <div class="about-main">
+  <div class="about-main" id="about">
     <div class="container">
 
 
@@ -33,19 +33,6 @@
 
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

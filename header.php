@@ -22,20 +22,17 @@
           <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Bass, inc.</a>
         </div>
 
-        <ul class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
           <div class="nav navbar-nav navbar-right">
 
 
-            <?php wp_nav_menu( array ( 'menu' ) ); ?>
+            <li><a href="#about">About</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>category/info" target="_blank">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-<!--
-            <li><a href="">About</a></li>
-            <li><a href="#">Info</a></li>
-            <li><a href="#contact">Contact</a></li> -->
-
-          </ul>
+          </div>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
