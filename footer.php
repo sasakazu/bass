@@ -4,7 +4,7 @@
 
 <footer>
 
-  &copy copy right
+  &copy copy right created by sasakura kazuya
 </footer>
 
 

@@ -19,16 +19,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bass, inc.</a>
+          <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Bass, inc.</a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
+          <div class="nav navbar-nav navbar-right">
+
+
+            <?php wp_nav_menu( array ( 'menu' ) ); ?>
+
+<!--
+            <li><a href="">About</a></li>
             <li><a href="#">Info</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li> -->
 
           </ul>
         </div><!-- /.navbar-collapse -->
