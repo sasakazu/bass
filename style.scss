@@ -2,7 +2,15 @@
 
 * {
   font-family: serif;
+
 }
+
+body {
+  word-wrap: break-word;
+
+}
+
+
 
 
 
@@ -82,13 +90,15 @@ a {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 
   h2 {
     color: #666;
     padding-top: 100px;
     margin-bottom: 10px;
     font-size: 38px;
+    margin-top: 0!important;
+
   }
 
   label {
@@ -108,18 +118,80 @@ button, input, select, textarea {
     color: #666;
     margin-bottom: 60px;
   }
-
+  input[type=submit] {
+      cursor: pointer;
+      padding: 7px 25px;
+      font-size: 20px;
+      color: #666;
+      background: #FFF!important;
+  }
 
 
 
 }
 
 
+// about
+
+
+.about-main {
+  background: #EFEFEF;
+  padding-bottom: 100px;
+
+  h2 {
+    text-align: center;
+    padding-top: 70px;
+    color: #666;
+    font-size: 38px;
+  }
+
+  p {
+    text-align: center;
+    color: #666;
+  }
+}
+
+.table {
+  margin-top: 100px;
+}
+
+.td1 {
+  font-weight: bold;
+}
+
+i.fa.fa-twitter {
+    margin-left: 5px;
+}
 
 
 
+// category-info.php
 
 
+.info-main {
+  margin-top: 30px;
+}
+
+.info {
+  margin-bottom: 100px;
+
+  h2 {
+    text-align: center;
+    color: #666;
+    font-size: 38px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+}
+
+
+.info-title {
+  margin-bottom: 30px;
+}
+
+.info-date {
+  color: #666;
+}
 
 
 // footer.php

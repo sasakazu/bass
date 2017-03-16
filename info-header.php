@@ -31,12 +31,6 @@
     </script>
 
 
-
-
-
-
-
-
   </head>
 
   <body>
@@ -55,14 +49,6 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-          <div class="nav navbar-nav navbar-right">
-
-
-            <li><a href="#about">About</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>category/info" target="_blank">お知らせ</a></li>
-            <li><a href="#contact">Contact</a></li>
-
-          </div>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>

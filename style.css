@@ -2,81 +2,143 @@
 * {
   font-family: serif; }
 
-/* line 11, style.scss */
+/* line 8, style.scss */
+body {
+  word-wrap: break-word; }
+
+/* line 19, style.scss */
 .navbar-default {
   background-color: #E62565 !important;
   border-color: transparent !important;
   border-radius: 0 !important; }
 
-/* line 17, style.scss */
+/* line 25, style.scss */
 .navbar-brand {
   color: #fff !important;
   font-size: 30px !important;
   letter-spacing: 1px; }
 
-/* line 26, style.scss */
+/* line 34, style.scss */
 .navbar {
   margin-bottom: 0px !important; }
 
-/* line 36, style.scss */
+/* line 44, style.scss */
 .navbar-default .navbar-nav li a {
   color: #fff !important;
   letter-spacing: 1px;
   font-size: 15px; }
 
-/* line 47, style.scss */
+/* line 55, style.scss */
 .menu-menu-container li {
   float: left;
   margin-left: 25px;
   line-height: 4; }
 
-/* line 55, style.scss */
+/* line 63, style.scss */
 .top-img {
   position: relative; }
-  /* line 57, style.scss */
+  /* line 65, style.scss */
   .top-img img {
     width: 100%; }
-  /* line 61, style.scss */
+  /* line 69, style.scss */
   .top-img h2 {
     position: absolute;
     top: 30%;
     left: 10%;
     color: #fff;
     font-size: 80px; }
-    /* line 68, style.scss */
+    /* line 76, style.scss */
     .top-img h2 small {
       font-size: 14px !important;
       margin-left: 47px; }
 
-/* line 80, style.scss */
+/* line 88, style.scss */
 .contact-main {
   background: #CCCCCC;
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  padding-bottom: 50px; }
-  /* line 87, style.scss */
+  padding-bottom: 100px; }
+  /* line 95, style.scss */
   .contact-main h2 {
     color: #666;
     padding-top: 100px;
     margin-bottom: 10px;
-    font-size: 38px; }
-  /* line 94, style.scss */
+    font-size: 38px;
+    margin-top: 0 !important; }
+  /* line 104, style.scss */
   .contact-main label {
     text-align: left;
     color: #666; }
-  /* line 100, style.scss */
+  /* line 110, style.scss */
   .contact-main button, .contact-main input, .contact-main select, .contact-main textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     margin-top: 10px; }
-  /* line 107, style.scss */
+  /* line 117, style.scss */
   .contact-main .contact-p {
     color: #666;
     margin-bottom: 60px; }
+  /* line 121, style.scss */
+  .contact-main input[type=submit] {
+    cursor: pointer;
+    padding: 7px 25px;
+    font-size: 20px;
+    color: #666;
+    background: #FFF !important; }
 
-/* line 127, style.scss */
+/* line 137, style.scss */
+.about-main {
+  background: #EFEFEF;
+  padding-bottom: 100px; }
+  /* line 141, style.scss */
+  .about-main h2 {
+    text-align: center;
+    padding-top: 70px;
+    color: #666;
+    font-size: 38px; }
+  /* line 148, style.scss */
+  .about-main p {
+    text-align: center;
+    color: #666; }
+
+/* line 154, style.scss */
+.table {
+  margin-top: 100px; }
+
+/* line 158, style.scss */
+.td1 {
+  font-weight: bold; }
+
+/* line 162, style.scss */
+i.fa.fa-twitter {
+  margin-left: 5px; }
+
+/* line 171, style.scss */
+.info-main {
+  margin-top: 30px; }
+
+/* line 175, style.scss */
+.info {
+  margin-bottom: 100px; }
+  /* line 178, style.scss */
+  .info h2 {
+    text-align: center;
+    color: #666;
+    font-size: 38px;
+    margin-top: 70px;
+    margin-bottom: 50px; }
+
+/* line 188, style.scss */
+.info-title {
+  margin-bottom: 30px; }
+
+/* line 192, style.scss */
+.info-date {
+  color: #666; }
+
+/* line 199, style.scss */
 footer {
   background: #E62565;
   text-align: center;
